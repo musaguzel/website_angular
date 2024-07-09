@@ -1,0 +1,56 @@
+/* Genel stiller */
+:host ::ng-deep .p-menubar {
+    background-color: #ffffff;
+    /* Menü arka plan rengi */
+    color: rgb(61, 18, 255);
+}
+
+:host ::ng-deep .p-menubar a {
+    color: rgb(82, 90, 233);
+    /* Menü öğeleri renk */
+}
+
+/* Başlık ve alt başlık için özel stiller */
+.application-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7em;
+}
+
+.application-header .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.application-header .subtitle {
+    font-size: 1.1em;
+    color: gray;
+    text-align: center;
+}
+
+.tansu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .application-header .title {
+        font-size: 0.75em;
+    }
+
+    .application-header .subtitle {
+        font-size: 0.5em;
+    }
+
+    .tansu {
+        display: block;
+        align-items: start;
+
+        justify-content: start;
+    }
+}
+
