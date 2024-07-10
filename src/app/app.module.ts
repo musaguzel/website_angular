@@ -5,11 +5,14 @@ import { MenubarModule } from 'primeng/menubar';
 import { AppComponent } from './app.component';
 import { SocialMediaIconsComponent } from './social-media-icons/social-media-icons.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    SocialMediaIconsComponent
+    SocialMediaIconsComponent,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,
@@ -20,4 +23,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }

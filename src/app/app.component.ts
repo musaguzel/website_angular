@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,22 @@ import { MenuItem } from 'primeng/api';
 })
 export class AppComponent implements OnInit {
 
+  faCoffee = faCoffee;
   items: MenuItem[] | undefined;
+  slides:any[] = [
+ 
+    {
+      url:'./assets/images/insat.jpg',
+      title: 'deneme bir iki uc',
+      description: 'Selam',
+    },
+
+    {
+      url:'./assets/images/insaat.jpg',
+      title: 'deneme bir iki uc',
+      description: 'Selam',
+    }
+  ];
 
   ngOnInit(): void {
 
