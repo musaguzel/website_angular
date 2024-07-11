@@ -11,6 +11,13 @@ export class AppComponent implements OnInit {
 
   faCoffee = faCoffee;
   items: MenuItem[] | undefined;
+  isMediaGalleryOpen: boolean = false;
+
+  onImageSelect(isOpen: boolean): void {
+    this.isMediaGalleryOpen = isOpen;
+  }
+
+
   slides: any[] = [
 
     {
@@ -58,7 +65,7 @@ export class AppComponent implements OnInit {
       },
       {
         label: 'Hakkımızda',
-        icon: 'pi pi-align-justify  ',
+        icon: 'pi pi-align-justify',
       },
       {
         label: 'İletişim',

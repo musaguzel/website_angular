@@ -17,10 +17,10 @@
 
 
 
-    <p-menubar [model]="items" class="tansu" >
+<p-menubar [model]="items" class="tansu" [class.hide-menu]="isMediaGalleryOpen">
 
+</p-menubar>
 
-    </p-menubar>
 
 
 <section id="anasayfa">
@@ -32,7 +32,7 @@
 </section>
 
 <section id="kurumsal">
-    
+
     <app-kurumsal></app-kurumsal>
 
 </section>
@@ -41,3 +41,6 @@
     <app-projeler></app-projeler>
 </section>
 
+<section id="medya">
+    <app-medya (imageSelected)="onImageSelect($event)"></app-medya>
+</section>

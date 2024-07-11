@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { KurumsalComponent } from './kurumsal/kurumsal.component';
 import { ProjelerComponent } from './projeler/view/projeler.component';
+import { MedyaComponent } from './medya/medya.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ProjelerComponent } from './projeler/view/projeler.component';
     SocialMediaIconsComponent,
     ImageSliderComponent,
     KurumsalComponent,
-    ProjelerComponent
+    ProjelerComponent,
+    MedyaComponent
   ],
   imports: [
     BrowserModule,
