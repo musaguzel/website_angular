@@ -21,12 +21,16 @@
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    font-family: Helvetica;
+    font-size: xxx-large;
 }
 
 .application-header .subtitle {
     font-size: 1.1em;
     color: gray;
     text-align: center;
+    font-family: Helvetica;
+    font-size: xx-large;
 }
 
 .tansu {
@@ -38,7 +42,7 @@
     top: 0;
 }
 
-.hide-menu  {
+.hide-menu {
     display: none;
 }
 

@@ -1,6 +1,15 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+
+h1{
+    font-family: Helvetica;
+    letter-spacing: 5px;
+}
+h2{
+    font-family: Helvetica;
+    font-size: xx-large;
+}
+p {
+    font-family: sans-serif;
+
 }
 
 html {
@@ -28,8 +37,9 @@ html {
 .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #246fa1;
     color: white;
+    margin-top: 2em;
 }
 
 .container {
@@ -57,6 +67,7 @@ html {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-size: x-large;
 }
 
 .button:hover {
