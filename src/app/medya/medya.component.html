@@ -1,19 +1,13 @@
 <h2>Medya</h2>
 
 
-<!-- <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7PIji8OubXU?si=a-mFlLL6fuZtjRIs"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
-
-
-<div class="gallery">
-    <div class="thumbnail" *ngFor="let image of images" (click)="openImage(image)">
-        <img [src]="image" alt="Image" />
+    <div class="gallery">
+        <div class="thumbnail" *ngFor="let image of images" (click)="openImage(image)">
+            <img [src]="image" alt="Image" />
+        </div>
     </div>
-</div>
+
+
 
 <div class="modal" *ngIf="selectedImage" (click)="closeImage()">
     <span class="close">&times;</span>

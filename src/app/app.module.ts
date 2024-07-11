@@ -9,6 +9,7 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { KurumsalComponent } from './kurumsal/kurumsal.component';
 import { ProjelerComponent } from './projeler/view/projeler.component';
 import { MedyaComponent } from './medya/medya.component';
+import { HakkimizdaComponent } from './hakkimizda/hakkimizda.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MedyaComponent } from './medya/medya.component';
     ImageSliderComponent,
     KurumsalComponent,
     ProjelerComponent,
-    MedyaComponent
+    MedyaComponent,
+    HakkimizdaComponent
   ],
   imports: [
     BrowserModule,

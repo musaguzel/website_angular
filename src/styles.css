@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
+
+@font-face {
+    font-family: Helvetica;
+    src: url('./assets/fonts/Helvetica.ttf') format('truetype');
+    font-family: Arial;
+    src: url('./assets/fonts/Arial.ttf') format('truetype');
+    font-family: sans-serif;
+    src: url('./assets/fonts/sans-serif.ttf') format('truetype');
+}  

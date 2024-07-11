@@ -1,4 +1,4 @@
-/* h2 {
+h2 {
     justify-content: center;
     display: flex;
     margin-top: 2em;
@@ -6,23 +6,33 @@
 }
 
 
-iframe {
-    max-width: 100%;
-    height: auto;
-} */
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thumbnail {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
 
 /* media-gallery.component.css */
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .thumbnail {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .thumbnail img {

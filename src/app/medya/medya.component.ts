@@ -10,7 +10,7 @@ export class MedyaComponent {
   images: string[] = [];
 
   constructor() {
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 19; i++) {
       this.images.push(`assets/media-gallery-images/image${i}.jpg`)
     }
   }
