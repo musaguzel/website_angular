@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SocialMediaIconsComponent } from './social-media-icons/social-media-icons.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { KurumsalComponent } from './kurumsal/kurumsal.component';
+import { ProjelerComponent } from './projeler/view/projeler.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SocialMediaIconsComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    KurumsalComponent,
+    ProjelerComponent
   ],
   imports: [
     BrowserModule,

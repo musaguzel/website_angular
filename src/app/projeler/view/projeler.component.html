@@ -1,0 +1,10 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let companyProject of companyProjects">
+            <p>
+                <strong style="color: #0b4d85;"> {{companyProject.title}}</strong> <br>
+                <span style="color: #808080;">{{companyProject.location}} <br>{{companyProject.completionDate}}</span>
+            </p>
+        </li>
+    </ul>
+</div>

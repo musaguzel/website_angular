@@ -1,0 +1,18 @@
+.img-kurumsal {
+    max-width: 35%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    gap: 2em;
+}
+
+.text-content {
+    width: 50%;
+    text-align: center;
+
+}

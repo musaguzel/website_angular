@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+ul {
+    list-style-type: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+li {
+    box-sizing: border-box;
+}
