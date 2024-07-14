@@ -194,6 +194,10 @@ hr {
     border-color: rgba(255, 255, 255, .6);
 }
 
+
+
+
+
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
     .contact-wrapper {
@@ -222,7 +226,13 @@ hr {
         height: 60px;
         line-height: 60px;
     }
+
+
+
 }
+
+
+
 
 @media screen and (max-width: 569px) {
 
@@ -266,11 +276,29 @@ hr {
         height: 55px;
         line-height: 55px;
     }
-}
-
-
-@media screen and (max-width: 410px) {
     .send-button {
-        width: 99%;
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-horizontal {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .paper-plane {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .send-text {
+        display: block;
+        margin-top: 14px;
+        font: 700 12px 'Lato', sans-serif;
+        letter-spacing: 2px;
     }
 }
