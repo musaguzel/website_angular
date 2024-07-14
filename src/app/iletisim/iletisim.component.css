@@ -32,7 +32,6 @@ body {
 
 /* Left contact page */
 .form-horizontal {
-    /*float: left;*/
     max-width: 400px;
     font-family: 'Lato';
     font-weight: 400;
@@ -42,10 +41,14 @@ body {
 textarea {
     width: 100%;
     max-width: 400px;
-    background-color: #fff; /* Beyaz arka plan */
-    color: #000; /* Metin rengi */
-    border: 1px solid #000; /* Siyah çerçeve */
-    padding: 10px; /* İç boşluk */
+    background-color: #fff;
+    /* Beyaz arka plan */
+    color: #000;
+    /* Metin rengi */
+    border: 1px solid #000;
+    /* Siyah çerçeve */
+    padding: 10px;
+    /* İç boşluk */
 }
 
 .send-button {
@@ -229,9 +232,9 @@ hr {
         margin: 0 auto;
     }
 
+
     .form-control,
     textarea {
-
         margin: 0 auto;
     }
 
@@ -263,8 +266,8 @@ hr {
         height: 55px;
         line-height: 55px;
     }
-
 }
+
 
 @media screen and (max-width: 410px) {
     .send-button {

@@ -47,13 +47,13 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .application-header .title {
-        font-size: 0.75em;
+        font-size: 1.2em;
     }
 
     .application-header .subtitle {
-        font-size: 0.5em;
+        font-size: 0.9em;
     }
 
     .tansu {

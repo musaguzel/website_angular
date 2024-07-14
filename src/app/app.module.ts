@@ -43,7 +43,4 @@ export class AppModule {
 
 }
 
-//iletişim kısmı kaldı 
-//ekran küçüldüğünde hakkımızda kısmındaki takımımız bölümü bozuluyor
-//menübar biraz daha büyütülecek
 //slider image aşağı doğru bir tık daha büyütülebilir

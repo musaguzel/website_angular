@@ -4,10 +4,11 @@
 
     .slides {
         width: 100%;
-        height: 400px;
+        height: 590px;
         border-radius: 10px;
         overflow: hidden;
         margin-top: 1em;
+
         .slide {
             width: 100%;
             height: 100%;
@@ -16,11 +17,14 @@
             background-repeat: no-repeat;
             position: relative;
             transition: opacity 0.2s ease-in-out;
-            
-            
+
+
         }
 
-        .nextButton, .previousButton {
+
+
+        .nextButton,
+        .previousButton {
             position: absolute;
             top: 50%;
             border: 0px;
@@ -28,10 +32,12 @@
             font-size: 30px;
             color: #fff;
         }
+
         .nextButton {
             right: 20px;
         }
-        .previousButton{
+
+        .previousButton {
             left: 20px;
         }
 
@@ -58,6 +64,12 @@
                 }
 
             }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .slides {
+            height: 400px;
         }
     }
 }
