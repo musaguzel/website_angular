@@ -10,6 +10,10 @@ import { KurumsalComponent } from './kurumsal/kurumsal.component';
 import { ProjelerComponent } from './projeler/view/projeler.component';
 import { MedyaComponent } from './medya/medya.component';
 import { HakkimizdaComponent } from './hakkimizda/hakkimizda.component';
+import { IletisimComponent } from './iletisim/iletisim.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -20,17 +24,26 @@ import { HakkimizdaComponent } from './hakkimizda/hakkimizda.component';
     KurumsalComponent,
     ProjelerComponent,
     MedyaComponent,
-    HakkimizdaComponent
+    HakkimizdaComponent,
+    IletisimComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MenubarModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule.forRoot([]),
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  
- }
+
+}
+
+//iletişim kısmı kaldı 
+//ekran küçüldüğünde hakkımızda kısmındaki takımımız bölümü bozuluyor
+//menübar biraz daha büyütülecek
+//slider image aşağı doğru bir tık daha büyütülebilir

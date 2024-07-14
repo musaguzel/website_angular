@@ -1,29 +1,31 @@
-<div style="display: flex;  align-items: center; margin-bottom: 1em;">
-    <img src="assets/images/hafriyat.jpg" style="max-width: 20%; height: auto; margin: 0 auto; " alt="">
 
-    <div>
-        <main-page-social-media-icons
-            style="margin-top: 1.2em; display: flex; justify-content: center; align-items: center;"></main-page-social-media-icons>
+<section id="anasayfa">
 
-        <div class="application-header">
-            <span class="title">YEĞENOĞLU İNŞAAT</span>
-            <span class="subtitle">İNŞAAT/HAFRİYAT</span>
+    <div style="display: flex;  align-items: center; margin-bottom: 1em;">
+        <img src="assets/images/hafriyat.jpg" style="max-width: 20%; height: auto; margin: 0 auto; " alt="">
+    
+        <div>
+            <main-page-social-media-icons
+                style="margin-top: 1.2em; display: flex; justify-content: center; align-items: center;"></main-page-social-media-icons>
+    
+            <div class="application-header">
+                <span class="title">YEĞENOĞLU İNŞAAT</span>
+                <span class="subtitle">İNŞAAT/HAFRİYAT</span>
+            </div>
         </div>
+    
+        <img src="assets/images/insaat.jpg" style="max-width: 20%; height: auto; margin: 0 auto;" alt="">
+    
     </div>
-
-    <img src="assets/images/insaat.jpg" style="max-width: 20%; height: auto; margin: 0 auto;" alt="">
-
-</div>
-
+    
+</section>
 
 
 <p-menubar [model]="items" class="tansu" [class.hide-menu]="isMediaGalleryOpen">
-
+    
 </p-menubar>
 
-
-
-<section id="anasayfa">
+<section id="image-slider">
 
     <div style="display: flex; align-items:center; justify-content: center; ">
         <app-image-slider [indicatorsVisible]="false" [slides]="slides"></app-image-slider>
@@ -47,4 +49,9 @@
 
 <section id="hakkimizda">
     <app-hakkimizda></app-hakkimizda>
+</section>
+
+
+<section id="iletisim">
+    <app-iletisim></app-iletisim>
 </section>

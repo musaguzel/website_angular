@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { CompanyprojectsService } from '../service/companyprojects.service';
 import { CompanyProject } from '../model/project.model';
 
@@ -9,7 +9,6 @@ import { CompanyProject } from '../model/project.model';
 })
 export class ProjelerComponent implements OnInit {
   companyProjects: Array<CompanyProject>
-
 
   constructor(private companyProjectService: CompanyprojectsService) { }
   ngOnInit(): void {
