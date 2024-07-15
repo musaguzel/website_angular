@@ -14,6 +14,7 @@ import { IletisimComponent } from './iletisim/iletisim.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { RouterModule } from '@angular/router';
     MedyaComponent,
     HakkimizdaComponent,
     IletisimComponent,
+    TooltipsComponent,
   ],
   imports: [
     BrowserModule,
