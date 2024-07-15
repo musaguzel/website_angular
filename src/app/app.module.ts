@@ -25,7 +25,7 @@ import { RouterModule } from '@angular/router';
     ProjelerComponent,
     MedyaComponent,
     HakkimizdaComponent,
-    IletisimComponent
+    IletisimComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,17 +8,34 @@
 
         <div class="form-group">
             <div class="col-sm-12">
-                <input formControlName="name" type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                <input formControlName="name" type="text" class="form-control" id="name" placeholder="NAME" name="name"
+                    value="" [required]="true">
+                <div *ngIf="name?.invalid && (name?.dirty || name?.touched)" class="alert">
+                    <div>Bu Alan Gerekli</div>
+                </div>
             </div>
         </div>
+
+
+
+
 
         <div class="form-group">
             <div class="col-sm-12">
-                <input formControlName="email" type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                <input formControlName="email" type="email" class="form-control" id="email" placeholder="EMAIL"
+                    name="email" value="" required>
+                    <div *ngIf="email?.invalid && (email?.dirty || email?.touched)" class="alert">
+                        <div>Bu Alan Gerekli</div>
+                    </div>
             </div>
         </div>
 
-        <textarea formControlName="message" class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+
+        <textarea formControlName="message" class="form-control" rows="10" placeholder="MESSAGE" name="message"
+            required></textarea>
+            <div *ngIf="message?.invalid && (message?.dirty || message?.touched)" class="alert">
+                <div>Bu Alan Gerekli</div>
+            </div>
 
         <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
             <div class="alt-send-button">
@@ -62,7 +79,7 @@
         </ul>
         <hr>
 
-        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        <div class="copyright">Copyright &copy; 2020 Yeğenoğlu İnşaat&Hafriyat</div>
 
     </div>
 

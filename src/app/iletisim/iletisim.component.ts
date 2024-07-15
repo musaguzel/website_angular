@@ -6,15 +6,15 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: './iletisim.component.html',
   styleUrls: ['./iletisim.component.css']
 })
-export class IletisimComponent implements OnInit{
+export class IletisimComponent {
 
   contactForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) {}
-
-  ngOnInit(): void {
+  constructor(private formBuilder: FormBuilder) {
     this.buildForm();
   }
+
+
 
   onSubmit() {
 
@@ -33,5 +33,7 @@ export class IletisimComponent implements OnInit{
       message: this.formBuilder.control('',[Validators.required]),
     });
   }
-
+  get name() { return this.contactForm.get('name'); }
+  get email() { return this.contactForm.get('email'); }
+  get message() { return this.contactForm.get('message'); }
 }
